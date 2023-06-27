@@ -1,0 +1,54 @@
+#sticky-social-meadia{
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    left:40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+}
+#sticky-social-meadia #line-gauche{
+    width: 4px;
+    height: 532px;
+}
+#sticky-social-meadia #line-gauche-1{
+    width: 100%;
+    height: 100%;
+    background-color: #f2cef27b;
+    transition: all 2s ease-in;
+}
+#sticky-social-meadia #line-gauche-1.before-seen{
+    height: 0;
+}
+#sticky-social-meadia #line-droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sticky-social-meadia #line-droite #line{
+    width: 4px;
+    height: 350px;
+}
+#sticky-social-meadia #line-droite #line-1{
+    width: 100%;
+    height: 100%;
+    background-color: #f2cef27b;
+    transition: all 2s ease-in;
+}
+#sticky-social-meadia #line-droite #line-1.before-seen{
+    height: 0;
+}
+#sticky-social-meadia #line-droite #line-bouton-reseaux{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: all 0.5s ease-in-out;
+}
+#sticky-social-meadia #line-droite #line-bouton-reseaux a img:hover{
+    transform: scale(1.15);
+    filter: invert(100%) brightness(300%) sepia(200%);
+}

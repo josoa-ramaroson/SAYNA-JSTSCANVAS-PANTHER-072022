@@ -7,6 +7,7 @@ footer{
     justify-content: space-around;
     background: radial-gradient(126.67% 350.28% at -21.35% 0%,#3D2DA6 0%, #021740 30.92%);
     background: linear-gradient(180deg, #3D2DA6 0%,#021740 90%);
+    transition: all 1s ease-in;
 }
 
 footer div#footer-left-image{
@@ -87,4 +88,7 @@ footer div#footer-right-section div.wrapper div#footer-social-media div#footer-s
 }
 footer div#footer-right-section div.wrapper div#footer-social-media div#footer-social-media-icon a:nth-child(4){
     background-color: #07338C;
+}
+footer.before-seen{
+    opacity: 0;
 }

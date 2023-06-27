@@ -1,41 +1,4 @@
-#sticky-social-meadia{
-    margin:0;
-    padding:0;
-    position:fixed;
-    top:0;
-    left:40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap:10px;
-}
-#sticky-social-meadia #line-gauche{
-    width: 4px;
-    height: 532px;
-    background-color: #f2cef27b;
-}
-#sticky-social-meadia #line-droite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#sticky-social-meadia #line-droite #line{
-    width: 4px;
-    height: 350px;
-    background-color: #f2cef27b;
-}
-#sticky-social-meadia #line-droite #line-bouton-reseaux{
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    transition: all 0.5s ease-in-out;
-}
-#sticky-social-meadia #line-droite #line-bouton-reseaux a img:hover{
-    transform: scale(1.15);
-    filter: invert(100%) brightness(300%) sepia(200%);
-}
+
 
 /*BALCK PANTHER WAKANADA FOREVER*/
 header #welcome-banner{
@@ -45,6 +8,12 @@ header #welcome-banner{
     color:white;
     display: flex;
     align-items: center;
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
+header #welcome-banner.before-seen{
+    transform: translateX(-70px);
+    opacity: 0;
 }
 header #welcome-banner #welcome-left{
     max-width: 500px;
@@ -94,6 +63,10 @@ main #slide-secondar-characters{
     background-color: #021740;
     display: flex;
     position:relative;
+    transition: all 1.5s ease-in-out;
+}
+main #slide-secondar-characters.before-seen{
+    opacity: 0;
 }
 main #slide-secondar-characters .one-slide img.one-slide-image{
     cursor: pointer;
@@ -146,8 +119,14 @@ article#main-character{
 article#main-character #left-section{
     max-width:48%;
 }
+
+
 article#main-character #left-section article.left-article{
     margin-bottom: 50px;
+    transition: all 1.5s ease-in-out;
+}
+article#main-character #left-section article.left-article.before-seen{
+    opacity: 0;
 }
 article#main-character #left-section article.left-article h2{
     margin:0 0 20px 0;
@@ -166,6 +145,30 @@ article#main-character #right-section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    transition: all 1.5s ease-in-out;
+}
+/* I have joinned three classes of them 
+
+t-chala information
+chala image
+and the image below them
+*/
+article#main-character #right-section section#t-chala,
+article#main-character #right-section  img#chala-image,
+article#main-character #right-section section#black-panther-image img,
+#contact-form-wrapper{
+ transition: all 1.5s ease-in-out;
+}
+article#main-character #right-section section#t-chala.before-seen,
+article#main-character #right-section  img#chala-image.before-seen,
+article#main-character #right-section section#black-panther-image.before-seen img,
+#contact-form-wrapper.before-seen{
+    transform: translateX(-70px);
+    opacity: 0;
+}
+article#main-character #right-section section#black-panther-image.before-seen img
+{
+transform: skew(30deg,30deg);
 }
 article#main-character #right-section section#t-chala{
     padding:0;

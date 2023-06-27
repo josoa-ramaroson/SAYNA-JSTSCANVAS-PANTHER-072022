@@ -34,6 +34,10 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+nav.before-seen{
+    opacity: 0;
 }
 nav img{
     height: 30px;

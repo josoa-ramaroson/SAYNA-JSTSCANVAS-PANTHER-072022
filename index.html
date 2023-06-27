@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="ressources/images/All_pages/icon_SAYNA.png" type="image/x-icon">
     <link rel="stylesheet" href="ressources/css/nav.css">
+    <link rel="stylesheet" href="ressources/css/stickysocialmedia.css">
     <link rel="stylesheet" href="ressources/css/nav.responsive.css">
     <link rel="stylesheet" href="ressources/css/footer.css">
     <link rel="stylesheet" href="ressources/css/footer.responsive.css">
@@ -16,9 +17,11 @@
 <body>
     <!--LE MENU DES RESEAUX SOCIAUX-->
     <section id="sticky-social-meadia">
-        <div id="line-gauche"></div>
+        <div id="line-gauche">
+            <div id="line-gauche-1" class="before-seen"></div>
+        </div>
         <div id="line-droite">
-            <div id="line"></div>
+            <div id="line"><div id="line-1" class="before-seen"></div></div>
             <div id="line-bouton-reseaux">
                 <a href="http://www.marvel-cineverse.fr/pages/mcu/encyclopedie/personnages/black-panther.html" class="social-media">
                     <img src="ressources/images/All_pages/icon_facebook.png" alt="facebook">
@@ -38,7 +41,7 @@
     <!-- LA PARTI VISIBLE Dès qu'on entre dans le site web-->
     <header>
         <!--L'ensemble des éléments de navigation-->
-        <nav>
+        <nav class="before-seen">
             <a href="index.html">
                 <img src="ressources/images/All_pages/footer2.png" alt="SAYNA ET MARVEL">
             </a>
@@ -48,7 +51,7 @@
                 <li class="nav-item"><a href="ressources/html/enigme.html">ENIGME</a></li>
             </ul>
         </nav>
-        <article id="welcome-banner">
+        <article id="welcome-banner" class="before-seen">
             <article id="welcome-left">
                 <h1 id="black-panther">BLACK PANTHER</h1>
                 <h2 id="wakanda-forever">WAKANDA FOREVER</h2>
@@ -71,9 +74,9 @@
         <!-- LE CONTENU PRINCIPALE-->
     <main>
         <!--LA PARTIE OU IL Y A LE SLIDE UN PEU PAS SLIDE DANS CETTE SECTION-->
-        <section id="slide-secondar-characters">
+        <section id="slide-secondar-characters" class="before-seen">
             <!--UNE SLIDE DANS LA PAGE-->
-            <article class="one-slide">
+            <article class="one-slide" >
                 <img src="ressources/images/Accueil/Pantherhome2.png" alt="KILLMO GER" class="one-slide-image">
                 <div class="one-slide-text">
                     <h3 class="slide-title">KILLMONGER</h3>
@@ -126,7 +129,7 @@
         <article id="main-character">
             <section id="left-section">
                 <!--NAISSANCE D'UN PRINCE -->
-                <article class="left-article">
+                <article class="left-article before-seen">
                     <h2 class="title-main-character">Naissance d’un prince</h2>
                     <p>
                         T'Challa est né au Wakanda, un pays isolationniste situé en Afrique, du monarque régnant T'Chaka et de sa femme 
@@ -156,7 +159,7 @@
 
                 <!-- un heros vengeur  -->
 
-                <article class="left-article">
+                <article class="left-article before-seen">
                 <h2 class="title-main-character">un heros vengeur</h2>
                 <p>
                     « La mort, dans notre culture, n'est pas la fin. Pour nous, c'est plutôt un point de départ. Le défunt n'a qu'à tendre les 
@@ -192,7 +195,7 @@ coeur. C'est difficile pour un homme bon d'être roi. »
                 </article>
                 
                  <!-- un heros protecteur et justicier -->
-                 <article class="left-article">
+                 <article class="left-article before-seen">
                     <h2 class="title-main-character">un heros PROTECTEUR ET JUSTICIER</h2>
                     <p>
                         « Tu as eu tort ! Vous avez tous eu tort ! Il ne fallait pas tourner le dos au reste du monde. Nous avons laissé la peur 
@@ -220,10 +223,10 @@ erreurs de son père
                     </p>
                 </article>
             </section>
-            <section id="right-section">
+            <section id="right-section" >
                 
-                <img src="ressources/images/Accueil/Pantherhome5.png" alt="T'Chala" id="chala-image">
-                <section id="t-chala">
+                <img src="ressources/images/Accueil/Pantherhome5.png" alt="T'Chala" id="chala-image"class="before-seen">
+                <section id="t-chala" class="before-seen">
                         <div id="t-chala-wrapper">
                         <div id="t-chala-information">
                             <div id="t-chala-head">
@@ -254,7 +257,7 @@ erreurs de son père
                         </div>
                     </div>
                     </section>
-                    <section id="black-panther-image">
+                    <section id="black-panther-image"  class="before-seen">
                         <img src="ressources/images/Accueil/Pantherhome6.png" alt="Black panther">
                     </section>
             </section>
@@ -265,9 +268,9 @@ erreurs de son père
 
         <!--LA PARTIE DU FORMULAIRE-->
         <article id="contact-form">
-            <div id="contact-form-wrapper">
+            <div id="contact-form-wrapper" class="before-seen">
     
-                <h3 id="question-tittle">Besoin de l’intervention du Wakanda ?</h3>
+                <h3 id="question-tittle"> Besoin de l’intervention du Wakanda ?</h3>
                 <h2 id="contact-tittle">Contactez nous !</h2>
                 <form>
                     <input type="text" placeholder="Nom">                
@@ -278,7 +281,7 @@ erreurs de son père
             </div>
         </article>
     </main>
-    <footer>
+    <footer class="before-seen">
         <!-- INSPIRATION:LE FOOTER DEVRAIS ÊTRE EN GRID-->
         <div  id="footer-left-image">
             <!--footer1 peuvent être faite en backgroun-->
@@ -307,5 +310,6 @@ erreurs de son père
         <p id="footer-copyright">2022 Tous droits réservés <span></span> Politique de confidentialité <span></span> Conditions d'utilisation</p>
     </div>
     </footer>
+    <script src="ressources/js/home.fadein.js"></script>
 </body>
 </html>
