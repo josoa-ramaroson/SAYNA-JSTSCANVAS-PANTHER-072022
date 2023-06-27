@@ -1,0 +1,32 @@
+@media screen and (max-width: 900px) and (min-width: 250px){
+   
+    body{
+        margin:0;
+        padding: 0;
+        background-image: url("../images/All_pages/arrière_plan.png");
+        overflow-x: hidden;
+    }
+    *{
+        margin:0;
+        font-family: Cantarell;
+    }
+    header{
+        margin:0;
+        padding:0;
+     }
+    nav{
+        margin:30px 5% 30px 5%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav .nav-menu{
+        min-width:33%;
+    }
+    .nav-menu{
+        display:flex;
+        gap:50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

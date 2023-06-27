@@ -1,0 +1,80 @@
+@media screen and (max-width: 900px) and (min-width: 250px){
+  
+footer{
+    margin: 200px 0 0 0;
+    padding: 50px 0 50px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%,#3D2DA6 0%, #021740 30.92%);
+    background: linear-gradient(180deg, #3D2DA6 0%,#021740 90%);
+}
+
+footer div#footer-left-image{
+    position:relative;
+    height: 300px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+footer div#footer-left-image:hover{
+    transform: scale(1.1);
+}
+footer div#footer-left-image img:nth-child(1){
+    height: 100%;
+}
+footer div#footer-left-image img:nth-child(2){
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-60%,-100%);
+}
+footer div#footer-right-section{
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30%;
+}
+footer div#footer-right-section p{
+    font-size: 12px;
+}
+
+footer div#footer-right-section div.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+footer div#footer-right-section div.wrapper div#footer-pages h3,footer div#footer-right-section div.wrapper div#footer-social-media h3{
+    margin-bottom: 5px;
+    font-size:22px;
+    letter-spacing: 7px;
+}
+
+footer div#footer-right-section div.wrapper div#footer-social-media div#footer-social-media-icon {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+footer div#footer-right-section div.wrapper div#footer-social-media div#footer-social-media-icon a{
+    padding:7px;
+    height: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+we already know that technology is an evolving world. It evolve constantly that if we miss just one thing today,  we won't be able to follow its evolution. That's why I have made up my mind to pursue a career in technology. I am in my second year in IT formation, and I find it really interesting. Firstly because it's a new world that only few people master it. secondly, technology is mandatory for me if I want to level up my  life and get out of my hard life as a student in a developing country. And finally, I am an adventurer that likes exploring  new thing, an example of that is that ,last year,  I was selected to be part of Developer Cloud nanodegree at Udacity, and I leant a lot from the world of cloud and so much about how to use it in real world  and its advantages and drawbacks. That's why I cannot think myself out of technology.
+
+
+
+In my country, it's hard to get a secure job. The only way to assure our living is working in IT. My goal for this year is to get a Job in the IT industry. For that, I aim to accomplish as many project and formation as possible and then apply for a job. My first nanodegree from Udacity is a developer Cloud nanodegree. From that nanodegree, we finished more than 4 project, from deploying a static website on AWS to deploying a serverless application. That nanodegree taught me a lot of lesson, like when we are in a nanodegree program, it is mandatory if you want to succeed to exchange between fellows. Apart from that, I had included a lot of my project on my github repository, like javascript project. This is the link: https://github.com/josoa-ramaroson
+
+As I said in previous answer, my goal for this year is to get a Job in IT.  As student that is financed by his parent, I want to take a job and earn money in order to be independent and relief them. Education in our country is expensive, that's the reason why I'm striving day and night to acquire  enough skills to be better in an IT job.
+A program like this is an opportunity to extend my professional network, it's an opportunity to acquire knowledge in order to make it easy to get a job. Knowledge is really important if I want to achieve a lot of project. I inferred that when I have finished my first nanodegree at Udacity.

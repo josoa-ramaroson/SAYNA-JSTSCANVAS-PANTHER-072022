@@ -1,0 +1,53 @@
+@media screen and (max-width: 900px) and (min-width: 250px){
+   
+header article#wakanda-banner{
+    margin:0;
+    padding: 20% 0 0 10%;
+    background: none;
+}
+header article#wakanda-banner h1#wakanda-forever{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: BEYNO;
+}
+
+/* LE CONTENU PRINCIPALE */
+main img:nth-child(1){
+    position: absolute;
+    top:-1%;
+    z-index: -1;
+    width: 100%;
+}
+main article#wakanda-article{
+    display: flex;
+    justify-content: space-around;
+}
+main article#wakanda-article>article{
+    max-width: 45%;
+}
+main article#wakanda-article>article p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+main article#wakanda-article>article h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: BEYNO;
+    color: #9E91B7;
+    text-transform: uppercase;
+}
+main article#wakanda-article>article video{
+    margin-bottom: 30px;
+    height: 500px;
+    width: 100%;
+}
+main article#wakanda-article>article video source{
+    width: 100%;
+}
+main article#wakanda-article img{
+    width: 120%;
+}
+
+}

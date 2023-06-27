@@ -1,0 +1,224 @@
+@media screen and (max-width: 900px) and (min-width: 250px){
+  
+
+#sticky-social-meadia{
+    left:20px;
+}
+#sticky-social-meadia #line-gauche{
+    height: 340px;
+}
+#sticky-social-meadia #line-droite #line{
+    height: 200px;
+}
+#sticky-social-meadia #line-droite #line-bouton-reseaux{
+    min-height: 150px;
+}
+
+/*BALCK PANTHER WAKANADA FOREVER*/
+header #welcome-banner{
+    padding:0 0 0 80px;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+header #welcome-banner #welcome-left{
+    max-width: 400px;
+    text-align: center;
+}
+
+header #welcome-banner #welcome-left #black-panther{
+    margin:0 0 10px 0;
+    font-size: 60px;
+}
+header #welcome-banner #welcome-left #wakanda-forever{
+    margin: 0 0 30px 0;
+    font-size:32px;
+}
+header #welcome-banner #welcome-left #welcom-description{
+    font-size: 16px;
+    max-width: 400px;
+}
+
+header #welcome-banner #welcome-left #welcom-description a::after,.slide-text a::after {
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header #welcome-banner #welcome-right img{
+    margin-top: 30px;
+    max-width: 80vw;
+}
+/* DEBUT DE STYLE DE MAIN*/
+main #slide-secondar-characters{
+    margin:0 7% 100px 0;
+    padding: 20px 50px;
+    height: 1500px;
+    z-index: -1;
+    flex-direction: column;
+}
+main #slide-secondar-characters .one-slide{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main #slide-secondar-characters .one-slide img{
+    width: 250px;
+}
+
+main #slide-secondar-characters .one-slide .one-slide-text{
+    padding: 30px 20px 0 20px;
+    text-align: center;
+}
+
+main #slide-secondar-characters .one-slide .slide-text{
+    font-size: 16px;
+}
+main #slide-secondar-characters #arrow-btn{
+    display: none;
+}
+.slide-text a::after{
+    width:70px;
+}
+/* SECTION DESCRIPTION ET BIBLIOGRAPHIE DU PRINCE*/
+article#main-character{
+    margin:0 10%;
+    flex-direction: column;
+}
+article#main-character #left-section{
+    max-width:95%;
+}
+article#main-character #left-section article.left-article{
+    margin-bottom: 50px;
+}
+article#main-character #right-section section#t-chala{
+    padding:0;
+    background: #ffffffd7;
+    width: 550px;
+    height:900px;
+    border-radius: 10px;
+    color:#000;
+    transform: translateY(-30%);
+    z-index:-1;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper{
+    padding:290px 10% 24% 50px;
+}
+article#main-character #right-section  img#chala-image{
+    width:400px;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information{
+    padding:0;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head h2{
+    font-size:36px;
+    text-align: center;   
+    margin-bottom: 20px;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head div#t-chala-role{
+    margin-bottom: 40px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head div#t-chala-role div.role-item{
+    padding:10px 20px;
+    color:#ffffff;
+    border-radius: 5px;
+    background: #3D2DA6;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div.t-chala-information {
+    font-size: 16px;
+    line-height: 35px;
+}
+article#main-character #right-section section#black-panther-image{
+    transform: translateY(-50%);
+}
+
+/* -----------------------------
+    LA PARTIE DU FORMULAIRE 
+    ------------------------*/
+
+article#contact-form{
+    padding:auto;
+    width:100%;
+    height: 1000px;
+    background-image: url("../images/Accueil/Pantherhome7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+article#contact-form div#contact-form-wrapper{
+    padding: 50px;
+    width: 1000px;
+    height: 600px;
+    color:#021740;
+    border-radius: 180px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to bottom, #fff,#ffffff54);
+    background: -webkit-linear-gradient(to bottom, #fff,#ffffff00);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+article#contact-form div#contact-form-wrapper h3#question-tittle{
+    font-size: 16px;
+}
+article#contact-form div#contact-form-wrapper h2#contact-tittle{
+    margin: 10px 0 20px 0;
+    font-size: 36px;
+}
+article#contact-form div#contact-form-wrapper form{
+    min-width: 600px;
+    height: 650px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+article#contact-form div#contact-form-wrapper form input,textarea{
+    padding: 0  15px;
+    width: 520px;
+    height: 56px;
+    color: #021740;
+    font-size: 16px;
+    border-radius: 38px;
+    border: solid 1px #021740;
+    outline: none;
+    background-color: transparent;
+}
+textarea{
+    padding: 15px;
+    height: 400px;
+    font-size:16px;
+}
+textarea::placeholder{
+    color: #021740;
+}
+article#contact-form div#contact-form-wrapper form input::placeholder{
+    color:#021740;
+}
+article#contact-form div#contact-form-wrapper form button{
+    padding: 10px 0;
+    width:174px;
+    height: 54px;
+    border-radius: 38px;
+    border:none;
+    color: #021740;
+    font-weight: bolder;
+    cursor: pointer;
+}
+article#contact-form div#contact-form-wrapper form button:hover{
+    filter: drop-shadow(0 0 20px #F2CEF2);
+}
+article#contact-form div#contact-form-wrapper form button:active{
+    filter: drop-shadow(0 0 20px #021740);
+}
+
+}

@@ -1,0 +1,67 @@
+header article#wakanda-banner{
+    margin:0;
+    padding: 20% 0 0 10%;
+    height: 650px;
+    color: #9E91B7;
+    background-image: url("../images/Wakanda/Pantherwakanda1.png");
+    background-size: 140%;
+    background-position: 20% 100%;
+}
+header article#wakanda-banner h1#wakanda-forever{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: BEYNO;
+}
+header article#wakanda-banner h2#wakanda-forever{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: 'Wakanda forever';
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+header article#wakanda-banner p#wakanda-description{
+    width: 460px;
+    text-align: justify;
+}
+/* LE CONTENU PRINCIPALE */
+main{
+    margin: 0 4%;
+    position: relative;
+    color: #fff;
+}
+main img:nth-child(1){
+    position: absolute;
+    top:-6%;
+    z-index: -1;
+}
+main article#wakanda-article{
+    display: flex;
+    justify-content: space-around;
+}
+main article#wakanda-article>article{
+    max-width: 45%;
+}
+main article#wakanda-article>article p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+main article#wakanda-article>article h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: BEYNO;
+    color: #9E91B7;
+    text-transform: uppercase;
+}
+main article#wakanda-article>article video{
+    margin-bottom: 30px;
+    height: 500px;
+    width: 100%;
+}
+main article#wakanda-article>article video source{
+    width: 100%;
+}
+main article#wakanda-article img{
+    width: 120%;
+}

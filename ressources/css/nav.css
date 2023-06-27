@@ -1,0 +1,87 @@
+@font-face {
+    font-family:Panthera;
+    src: url("../font/PantheraRegular.ttf");
+}
+@font-face {
+    font-family: BEYNO;
+    src: url("../font/BEYNO.otf");
+}
+@font-face {
+    font-family:'Wakanda forever';
+    src: url("../font/WakandaForever-Regular.ttf");
+}
+@font-face {
+    font-family: Cantarell;
+    src: url("../font/Cantarell-Regular.woff");
+}
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("../images/All_pages/arrière_plan.png");
+    overflow-x: hidden;
+}
+*{
+    margin:0;
+    font-family: Cantarell;
+}
+header{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin:30px 10% 40px 10%;
+    padding:0 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 30px;
+    transition: all 0.4s ease-in-out;
+}
+nav img:hover{
+    filter: invert(50%) sepia(110%) hue-rotate(290deg) saturate(4);
+}
+nav .nav-menu{
+    min-width:33%;
+}
+.nav-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu .nav-item{
+    list-style-type:none ;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.nav-menu .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    font-family: BEYNO;
+    transition: all 0.3s ease-in;    
+}
+.nav-menu .nav-item::after{
+    content:"";
+    width:0;
+    height:2px;
+    border-radius: 100px;    
+    display: block;
+    background-color: #9E91B7;
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in;    
+}
+.nav-menu .nav-item:hover a{
+    color: #9E91B7;
+}
+.nav-menu .nav-item:hover::after{
+    width:100%;
+}
+.nav-menu .nav-item.active a{
+    color: #9E91B7;
+}
+.nav-menu .nav-item.active::after{
+    width:100%;
+}
+

@@ -1,0 +1,297 @@
+#sticky-social-meadia{
+    margin:0;
+    padding:0;
+    position:fixed;
+    top:0;
+    left:40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+}
+#sticky-social-meadia #line-gauche{
+    width: 4px;
+    height: 532px;
+    background-color: #f2cef27b;
+}
+#sticky-social-meadia #line-droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sticky-social-meadia #line-droite #line{
+    width: 4px;
+    height: 350px;
+    background-color: #f2cef27b;
+}
+#sticky-social-meadia #line-droite #line-bouton-reseaux{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    transition: all 0.5s ease-in-out;
+}
+#sticky-social-meadia #line-droite #line-bouton-reseaux a img:hover{
+    transform: scale(1.15);
+    filter: invert(100%) brightness(300%) sepia(200%);
+}
+
+/*BALCK PANTHER WAKANADA FOREVER*/
+header #welcome-banner{
+    margin:0;
+    padding:0 0 0 200px;
+    width:100%;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+header #welcome-banner #welcome-left{
+    max-width: 500px;
+}
+
+header #welcome-banner #welcome-left #black-panther{
+    margin:0 0 10px 0;
+  font-size: 60px;
+  font-family: Panthera;
+  color:#f2cef298;
+  letter-spacing: 2px;
+}
+header #welcome-banner #welcome-left #wakanda-forever{
+    margin: 0 0 30px 0;
+    font-family: BEYNO;
+    font-size:32px;
+    color:#f2cef298;
+}
+header #welcome-banner #welcome-left #welcom-description{
+    font-size: 16px;
+}
+header #welcome-banner #welcome-left #welcom-description a,.slide-text a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header #welcome-banner #welcome-left #welcom-description a::after, .slide-text a::after{
+    content: '';
+    width:80px;
+    height: 1.5px;
+    display: block;
+    background-color: #fff;
+}
+header #welcome-banner #welcome-right img{
+    max-width: 60vw;
+}
+/* DEBUT DE STYLE DE MAIN*/
+main{
+    padding:0;
+    color:#ffffff;
+}
+main #slide-secondar-characters{
+    margin:0 0 100px 7%;
+    padding: 0 0 0 20px;
+    height: 270px ;
+    width:92%;
+    background-color: #021740;
+    display: flex;
+    position:relative;
+}
+main #slide-secondar-characters .one-slide img.one-slide-image{
+    cursor: pointer;
+    transition:all ease-in 0.5s;
+}
+main #slide-secondar-characters .one-slide img.one-slide-image:hover{
+    transform: scale(1.2);
+}
+main #slide-secondar-characters .one-slide{
+    display: flex;
+}
+
+main #slide-secondar-characters .one-slide .one-slide-text{
+    padding: 30px 20px 0 20px;
+}
+main #slide-secondar-characters .one-slide .slide-title{
+    margin:0 0 10px 0;
+    font-size:24px;
+    font-family:BEYNO;
+    color: #9E91B7;
+}
+main #slide-secondar-characters .one-slide .slide-text{
+    font-size: 14px;
+}
+main #slide-secondar-characters #arrow-btn{
+    padding:5px;
+    height: 20px;
+    width:20px;
+    font-family: GEYNO;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100px;   
+    background-color: #021740;
+    position:absolute;
+    top:50%;
+    right:4%;
+    transform: translateY(-50%);
+}
+.slide-text a::after{
+    width:70px;
+}
+
+
+/* SECTION DESCRIPTION ET BIBLIOGRAPHIE DU PRINCE*/
+article#main-character{
+    margin:80px 0 100px 7%;
+    display: flex;
+    justify-content: space-around;
+}
+article#main-character #left-section{
+    max-width:48%;
+}
+article#main-character #left-section article.left-article{
+    margin-bottom: 50px;
+}
+article#main-character #left-section article.left-article h2{
+    margin:0 0 20px 0;
+    font-size: 32px;
+    font-family: BEYNO;
+    color: #9E91B7;
+}
+article#main-character #left-section article.left-article p{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+}
+article#main-character #right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+article#main-character #right-section section#t-chala{
+    padding:0;
+    background: #ffffffd7;
+    width: 550px;
+    height:900px;
+    border-radius: 10px;
+    color:#000;
+    transform: translateY(-45%);
+    z-index:-1;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper{
+    padding:290px 10% 24% 50px;
+}
+article#main-character #right-section  img#chala-image{
+    width:400px;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information{
+    padding:0;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head h2{
+    font-size:36px;
+    text-align: center;   
+    margin-bottom: 20px;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head div#t-chala-role{
+    margin-bottom: 40px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div#t-chala-information div#t-chala-head div#t-chala-role div.role-item{
+    padding:10px 20px;
+    color:#ffffff;
+    border-radius: 5px;
+    background: #3D2DA6;
+}
+article#main-character #right-section section#t-chala div#t-chala-wrapper div.t-chala-information {
+    font-size: 16px;
+    line-height: 35px;
+}
+article#main-character #right-section section#black-panther-image{
+    transform: translateY(-50%);
+}
+
+/* -----------------------------
+    LA PARTIE DU FORMULAIRE 
+    ------------------------*/
+
+article#contact-form{
+    padding:auto;
+    width:100%;
+    height: 1000px;
+    background-image: url("../images/Accueil/Pantherhome7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+article#contact-form div#contact-form-wrapper{
+    padding: 50px;
+    width: 1000px;
+    height: 600px;
+    color:#021740;
+    border-radius: 180px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to bottom, #fff,#ffffff54);
+    background: -webkit-linear-gradient(to bottom, #fff,#ffffff00);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+article#contact-form div#contact-form-wrapper h3#question-tittle{
+    font-size: 16px;
+}
+article#contact-form div#contact-form-wrapper h2#contact-tittle{
+    margin: 10px 0 20px 0;
+    font-size: 36px;
+}
+article#contact-form div#contact-form-wrapper form{
+    min-width: 600px;
+    height: 650px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+article#contact-form div#contact-form-wrapper form input,textarea{
+    padding: 0  15px;
+    width: 520px;
+    height: 56px;
+    color: #021740;
+    font-size: 16px;
+    border-radius: 38px;
+    border: solid 1px #021740;
+    outline: none;
+    background-color: transparent;
+}
+textarea{
+    padding: 15px;
+    height: 400px;
+    font-size:16px;
+}
+textarea::placeholder{
+    color: #021740;
+}
+article#contact-form div#contact-form-wrapper form input::placeholder{
+    color:#021740;
+}
+article#contact-form div#contact-form-wrapper form button{
+    padding: 10px 0;
+    width:174px;
+    height: 54px;
+    border-radius: 38px;
+    border:none;
+    color: #021740;
+    font-weight: bolder;
+    cursor: pointer;
+}
+article#contact-form div#contact-form-wrapper form button:hover{
+    filter: drop-shadow(0 0 20px #F2CEF2);
+}
+article#contact-form div#contact-form-wrapper form button:active{
+    filter: drop-shadow(0 0 20px #021740);
+}
