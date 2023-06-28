@@ -36,7 +36,8 @@ let selectorElementFadedIn = [
 "section#black-panther-image",
 "#contact-form-wrapper",
 "nav",
-"footer"
+"footer",
+"article"
 ];
 let elementFadedIn = document.querySelectorAll(selectorElementFadedIn.join(","));
 
