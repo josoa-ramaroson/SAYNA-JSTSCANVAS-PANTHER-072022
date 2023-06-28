@@ -46,10 +46,12 @@ main{
     margin: 0% 5% 5% 15%;
     color: #F2CEF2;
 }
-main article#do-you-know h2#do-you-know-tittle{
+#do-you-know-tittle{
     margin: 0 0 30px 0;
     color: #F2CEF2;
-    font-size: 43px;
+    font-size: 30px;
+    line-height: 40px;
+    word-spacing: 20px;
     font-family: 'Wakanda forever';
 } 
 main article#do-you-know div.challenge{
@@ -70,12 +72,12 @@ main article#do-you-know div.challenge section#challenge-left div.challenge-info
     margin-bottom: 30px;
     font-size: 16px;
 }
-main article#do-you-know div.challenge section#challenge-left div.challenge-information p#challenge-alphabet {
+ p#challenge-alphabet {
     font-size: 16px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-main article#do-you-know div.challenge section#challenge-left div.challenge-information p#challenge-alphabet span.uganda-alpha{
+p#challenge-alphabet span.uganda-alpha{
     font-family: 'Wakanda forever';
 }
 main article#do-you-know div.challenge section#challenge-left form#enigme-answer {
