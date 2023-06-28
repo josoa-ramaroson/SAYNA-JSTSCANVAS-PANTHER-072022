@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: flex-start;
     gap:10px;
+    z-index: 1000;
 }
 #sticky-social-meadia #line-gauche{
     width: 4px;
@@ -16,7 +17,7 @@
 #sticky-social-meadia #line-gauche-1{
     width: 100%;
     height: 100%;
-    background-color: #f2cef27b;
+    background-color: #f2cef2a1;
     transition: all 2s ease-in;
 }
 #sticky-social-meadia #line-gauche-1.before-seen{
@@ -50,5 +51,5 @@
 }
 #sticky-social-meadia #line-droite #line-bouton-reseaux a img:hover{
     transform: scale(1.15);
-    filter: invert(100%) brightness(300%) sepia(200%);
+    filter: invert(100%) brightness(400%) sepia(200%) ;
 }

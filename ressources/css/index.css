@@ -72,24 +72,31 @@ main #slide-secondar-characters .one-slide img.one-slide-image{
     cursor: pointer;
     transition:all ease-in 0.5s;
 }
-main #slide-secondar-characters .one-slide img.one-slide-image:hover{
+main #slide-secondar-characters .one-slide img.one-slide-image.image-actual{
     transform: scale(1.2);
 }
 main #slide-secondar-characters .one-slide{
     display: flex;
+    justify-content: space-around;
 }
 
 main #slide-secondar-characters .one-slide .one-slide-text{
     padding: 30px 20px 0 20px;
 }
 main #slide-secondar-characters .one-slide .slide-title{
-    margin:0 0 10px 0;
-    font-size:24px;
+    margin:0 0 15px 0;
+    font-size:20px;
     font-family:BEYNO;
     color: #9E91B7;
 }
 main #slide-secondar-characters .one-slide .slide-text{
+    max-width: 300px;
     font-size: 14px;
+    font-weight: lighter;
+    color: #ffffffdb;
+}
+main #slide-secondar-characters .one-slide .slide-text a{
+    letter-spacing: 1px;
 }
 main #slide-secondar-characters #arrow-btn{
     padding:5px;
