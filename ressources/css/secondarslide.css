@@ -1,12 +1,29 @@
+#slide{
+    position: relative;
+}
+#arrow-btn{
+    padding:5px;
+    height: 20px;
+    width:20px;
+    font-family: GEYNO;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100px;   
+    background-color: #021740;
+    position:absolute;
+    top:50%;
+    right:4%;
+    transform: translateY(-50%);
+}
 #slide-secondar-characters{
     
 }
 .one-slide{
     width: 650px;
     min-width: 650px;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
-#slide-secondar-characters ~ *{
+#slide-secondar-characters ~ *:not(#arrow-btn){
     opacity: 0;
 }
 #arrow-btn{
@@ -23,4 +40,13 @@
 .effet-disapear{
     transform: translateX(-120%);
     opacity: 0;
+}
+.first{
+   transform: translateX(-100%);
+}
+.second{
+    transform: translateX(-100%);
+}
+.third{
+    transform: translateX(-100%);
 }

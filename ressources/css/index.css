@@ -55,13 +55,16 @@ main{
     padding:0;
     color:#ffffff;
 }
-main #slide-secondar-characters{
+#slide{
     margin:0 0 100px 7%;
-    padding: 0 0 0 20px;
     height: 270px ;
-    width:92%;
     background-color: #021740;
-    display: flex;
+    padding: 0 0 0 20px;
+}
+#slide-secondar-characters{
+   height: 100%;
+    width:90%;
+   display: flex;
     position:relative;
     transition: all 1.5s ease-in-out;
 }
@@ -71,47 +74,35 @@ main #slide-secondar-characters.before-seen{
 main #slide-secondar-characters .one-slide img.one-slide-image{
     cursor: pointer;
     transition:all ease-in 0.5s;
+    
 }
-main #slide-secondar-characters .one-slide img.one-slide-image.image-actual{
+#slide-secondar-characters .one-slide img.one-slide-image.image-actual{
     transform: scale(1.2);
 }
-main #slide-secondar-characters .one-slide{
+#slide-secondar-characters .one-slide{
     display: flex;
     justify-content: space-around;
 }
 
-main #slide-secondar-characters .one-slide .one-slide-text{
+#slide-secondar-characters .one-slide .one-slide-text{
     padding: 30px 20px 0 20px;
 }
-main #slide-secondar-characters .one-slide .slide-title{
+#slide-secondar-characters .one-slide .slide-title{
     margin:0 0 15px 0;
     font-size:20px;
     font-family:BEYNO;
     color: #9E91B7;
 }
-main #slide-secondar-characters .one-slide .slide-text{
+#slide-secondar-characters .one-slide .slide-text{
     max-width: 300px;
     font-size: 14px;
     font-weight: lighter;
     color: #ffffffdb;
 }
-main #slide-secondar-characters .one-slide .slide-text a{
+#slide-secondar-characters .one-slide .slide-text a{
     letter-spacing: 1px;
 }
-main #slide-secondar-characters #arrow-btn{
-    padding:5px;
-    height: 20px;
-    width:20px;
-    font-family: GEYNO;
-    text-align: center;
-    line-height: 20px;
-    border-radius: 100px;   
-    background-color: #021740;
-    position:absolute;
-    top:50%;
-    right:4%;
-    transform: translateY(-50%);
-}
+
 .slide-text a::after{
     width:70px;
 }
@@ -234,7 +225,8 @@ article#contact-form{
     background-repeat: no-repeat;
     position:relative;
 }
-article#contact-form div#contact-form-wrapper{
+
+.confirm-pop,article#contact-form div#contact-form-wrapper{
     padding: 50px;
     width: 1000px;
     height: 600px;
@@ -250,6 +242,16 @@ article#contact-form div#contact-form-wrapper{
     flex-direction: column;
     align-items: center;    
 }
+.confirm-pop{
+    justify-content: center;
+    gap: 50px;
+    background: linear-gradient(to bottom, #fff,#ffffff3e);
+    display: none;
+}
+.confirm-pop h3{
+    font-size: 40px;
+}
+
 article#contact-form div#contact-form-wrapper h3#question-tittle{
     font-size: 16px;
 }
@@ -289,7 +291,10 @@ textarea::placeholder{
 article#contact-form div#contact-form-wrapper form input::placeholder{
     color:#021740;
 }
-article#contact-form div#contact-form-wrapper form button{
+#popupBtn{
+    filter: drop-shadow(0 0 5px #021740);
+}
+#popupBtn,article#contact-form div#contact-form-wrapper form button{
     padding: 10px 0;
     width:174px;
     height: 54px;
@@ -299,9 +304,9 @@ article#contact-form div#contact-form-wrapper form button{
     font-weight: bolder;
     cursor: pointer;
 }
-article#contact-form div#contact-form-wrapper form button:hover{
+#popupBtn:hover,article#contact-form div#contact-form-wrapper form button:hover{
     filter: drop-shadow(0 0 20px #F2CEF2);
 }
-article#contact-form div#contact-form-wrapper form button:active{
+#popupBtn:active,article#contact-form div#contact-form-wrapper form button:active{
     filter: drop-shadow(0 0 20px #021740);
 }
