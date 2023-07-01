@@ -56,7 +56,7 @@ slideContainer.addEventListener('transitionend', ()=>{
         slideContainer.style.transform = `translateX(-${widthSlide*currentSlide}px)`;
         
         
-    },500)
+    },800)
    
 }
 })
