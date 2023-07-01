@@ -34,6 +34,7 @@ article#enigme-banner article#enigme-right div.welcome-description-container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 article#enigme-banner article#enigme-right div.welcome-description-container p#welcome-description{
     padding:15%;
