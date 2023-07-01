@@ -46,14 +46,7 @@ main{
     margin: 0% 5% 5% 15%;
     color: #F2CEF2;
 }
-#do-you-know-tittle{
-    margin: 0 0 30px 0;
-    color: #F2CEF2;
-    font-size: 30px;
-    line-height: 40px;
-    word-spacing: 20px;
-    font-family: 'Wakanda forever';
-} 
+
 main article#do-you-know div.challenge{
     display: flex;
     height: 500px;
@@ -72,27 +65,27 @@ main article#do-you-know div.challenge section#challenge-left div.challenge-info
     margin-bottom: 30px;
     font-size: 16px;
 }
- p#challenge-alphabet {
+ p.challenge-alphabet {
     font-size: 16px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
-p#challenge-alphabet span.uganda-alpha{
+p.challenge-alphabet span.uganda-alpha{
     font-family: 'Wakanda forever';
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer {
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     position: relative;
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer label{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer label{
     width: 100%;
     display: block;
     font-size: 16px;
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer input{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer input{
     margin-bottom: 80px;
     padding: 0 20px;
     width: 520px;
@@ -104,10 +97,10 @@ main article#do-you-know div.challenge section#challenge-left form#enigme-answer
     border: solid #fff 1px;
 
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer input::placeholder{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer input::placeholder{
     color: #fff;
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer button{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer button{
     padding: 10px 0;
     border-radius: 38px;
     width: 174px;
@@ -120,20 +113,20 @@ main article#do-you-know div.challenge section#challenge-left form#enigme-answer
     left: 50%;
     transform: translateX(-50%);
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer button:hover{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer button:hover{
     filter: drop-shadow(0 0 20px #F2CEF2);
 }
-main article#do-you-know div.challenge section#challenge-left form#enigme-answer button:active{
+main article#do-you-know div.challenge section#challenge-left form.enigme-answer button:active{
     filter: drop-shadow(0 0 20px #021740);
 }
-main article#do-you-know div.challenge section#challenge-right{
+main article#do-you-know div.challenge section.challenge-right{
     min-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateY(-10%);
 }
-main article#do-you-know div.challenge section#challenge-right div#do-you-know-wrapper{
+main article#do-you-know div.challenge section.challenge-right div.do-you-know-wrapper{
     width: 750px;
     height: 330px;    
     background-image: url("../images/Enigme/Pantherenigme2.png");
@@ -144,15 +137,15 @@ main article#do-you-know div.challenge section#challenge-right div#do-you-know-w
     justify-content: center;
     align-items: center;
 }
-main article#do-you-know div.challenge section#challenge-right div#do-you-know-wrapper div#do-you-know-description{
+main article#do-you-know div.challenge section.challenge-right div.do-you-know-wrapper div.do-you-know-description{
     color: #fff;
     text-align: justify;
 }
-main article#do-you-know div.challenge section#challenge-right div#do-you-know-wrapper div#do-you-know-description p:nth-child(1){
+main article#do-you-know div.challenge section.challenge-right div.do-you-know-wrapper div.do-you-know-description p:nth-child(1){
     text-align: center;
     margin-bottom: 10px;
 }
-main article#do-you-know div.challenge section#challenge-right div#do-you-know-wrapper div#do-you-know-description p:nth-child(2){
+main article#do-you-know div.challenge section.challenge-right div.do-you-know-wrapper div.do-you-know-description p:nth-child(2){
     text-align: justify;
     width: 500px;
 }

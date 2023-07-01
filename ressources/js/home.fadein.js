@@ -37,7 +37,7 @@ let selectorElementFadedIn = [
 "#contact-form-wrapper",
 "nav",
 "footer",
-"article"
+"article:not(#contact-form)"
 ];
 let elementFadedIn = document.querySelectorAll(selectorElementFadedIn.join(","));
 

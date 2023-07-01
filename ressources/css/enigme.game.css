@@ -1,34 +1,211 @@
 .titre-enigme{
     margin-bottom: 20px;
     font-size: 32px;
-    font-family: BEYNO;
+    /* font-family: BEYNO; */
+    font-family: Cantarell;
+    font-family: ;
     line-height: 35px;
     font-weight: lighter;
 }
+
 .titre-enigme::after{
     content: "";
     margin-top: 4px;
     display: block;
-    width: 56.5%;
+    width: 65.5%;
     height: 2px;
     background: #fff;
 }
+.do-you-know-tittle{
+    margin: 0 0 30px 0;
+    color: #F2CEF2;
+    font-size: 30px;
+    line-height: 40px;
+    word-spacing: 20px;
+} 
+.enigme-title-1{
+    font-family: 'Wakanda forever';
+}
+.enigme-title-2
+{
+    font-weight: lighter;
+    font-size: 16px;
+    color: white;
+    word-spacing: 5px;
+    line-height: 20px;
+}   
 .description-enigme{
     margin-bottom: 50px;
     color: white;
     width: 100%;
+    
 }
 #do-you-know{
     height:150vh;
     position: relative;
 }
-/* .challenge{
-    position: absolute;
-}
-.challenge:nth-child(1){
+ 
+/*.challenge:nth-child(1){
     display: none;
 } */
 .enigme{
     color: white;
     font-family: inherit;
+}
+.enigme-description-2{
+
+}
+
+.popupresult{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.8s ease-in-out;
+}
+.popup-titre{
+    font-size: 60px;
+}
+.description{
+    color: white;
+}
+.suivant-precedent{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background: #F2CEF2;
+    pointer-events: all;
+    z-index: 100;
+    cursor: pointer;
+    color: #3D2DA6;
+    filter: drop-shadow(0px 0px 2px #F2CEF2);
+   
+}
+.popupresult.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.suivant-precedent:hover{
+    filter: drop-shadow(0px 0px 7px #F2CEF2);
+}
+.suivant-precedent:active{
+    filter: drop-shadow(0px 0px 10px #F2CEF2);
+}
+.challenge{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in;
+}
+.current-challenge{
+    opacity: 1;
+    pointer-events: all;
+
+}
+.popupresult-final-container{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background: linear-gradient(to bottom , #07338C,#021740);
+    box-shadow: 0px 100px 100px #021740,100px 100px 300px #021740,-100px 200px 300px #021740, 0px -100px 100px #3D2DA6, 100px -100px 300px #3D2DA6,-100px -100px 300px #3D2DA6;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in;
+}
+.popupresult-final-container.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.popupresult-final{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #f8c1f8ae,20%,#f2cef200);
+    border-top: solid 0.2px #fff;
+    border-left: solid 0.2px #fff;
+    border-right: solid 0.2px #fff;
+    filter: blur(100%);
+    transition: all 0.8s ease-in-out;
+}
+.popupresult-final *{
+    color: white;
+    text-transform: uppercase;
+}
+.btn-container{
+    min-height: 250px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.revenir-accueil{
+   padding: 15px 40px;
+   min-width: 100%;
+    min-height: 40px;
+    border-radius: 40px;
+    background: #F2CEF2;
+    
+    cursor: pointer;
+  
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-family: Cantarell;
+}
+.revenir-accueil:hover{
+    filter: drop-shadow(0px 0px 10px #021740);
+}
+.revenir-accueil:active{
+    filter: drop-shadow(0px 0px 20px #021740);
+}
+.revenir-accueil button{
+    background: none;
+    color: #021740;
+    border: none;
+    font-size: 22px;
+    min-width: 100%;
+    min-height: 100%;
+    cursor: pointer;
+}
+.comming-soon-container{
+    min-width: 100%;
+    min-height: 30%;
+}
+.comming-soon-container img{
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+.comming-soon p:nth-child(1){
+    text-align: justify;
+    font-size: 22px;
+}
+.comming-soon p:nth-child(2){
+    text-align: justify;
+    font-size: 50px;
+    font-weight: 900;
 }
