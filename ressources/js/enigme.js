@@ -124,6 +124,6 @@ btnEnigme3.onclick = ()=>{
 
     }
     else{
-        nonReussiReste(1);
+        nonReussiReste(2);
     }
 };
